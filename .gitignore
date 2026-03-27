@@ -34,6 +34,9 @@ update_bg.log
 *.swo
 *~
 
+# Streamlit secrets (contains database credentials)
+.streamlit/secrets.toml
+
 # macOS
 .DS_Store
 

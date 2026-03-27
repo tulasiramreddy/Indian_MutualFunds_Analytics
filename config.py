@@ -2,10 +2,6 @@
 
 import os
 
-# --- Paths ---
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DB_PATH = os.path.join(BASE_DIR, "mf_data.db")
-
 # --- API Endpoints ---
 AMFI_NAV_URL = "https://www.amfiindia.com/spages/NAVAll.txt"
 MFAPI_BASE_URL = "https://api.mfapi.in/mf"

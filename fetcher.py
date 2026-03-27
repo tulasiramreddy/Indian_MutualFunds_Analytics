@@ -486,11 +486,9 @@ def fetch_nse_index_data(
     return counts
 
 
-def get_scheme_codes_for_equity(db_path=None) -> list[int]:
+def get_scheme_codes_for_equity() -> list[int]:
     """Get scheme codes for all Direct Growth equity funds in the database."""
-    from config import DB_PATH
-    path = db_path or DB_PATH
-    with get_connection(path) as conn:
+    with get_connection() as conn:
         rows = conn.execute(
             """SELECT scheme_code, scheme_name FROM funds
                WHERE scheme_category LIKE '%Equity%'
