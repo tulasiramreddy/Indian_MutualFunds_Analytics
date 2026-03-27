@@ -120,6 +120,6 @@ MFAPI_DELAY_SECONDS = 0.5     # Rate limit for mfapi.in
 
 Benchmark indices and tag-to-benchmark mappings are also defined there.
 
-## Whitepaper
+## Acknowledgement
 
-`Whitepaper/whitepaper.pdf` documents the methodology, metric definitions, and data pipeline in detail.
+Created using Claude
